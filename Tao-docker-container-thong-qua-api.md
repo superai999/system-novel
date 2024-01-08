@@ -44,7 +44,7 @@ axios.post('http://localhost:2375/containers/create', containerInfo)
   });
 ```
 
-Điều quan trọng là địa chỉ URL `http://localhost:2375` có thể thay đổi tùy thuộc vào cài đặt `Docker` của bạn. Chắc chắn rằng `Docker daemon` đang chạy và API của nó có thể được truy cập từ `Node.js`.
+Điều quan trọng là địa chỉ URL `http://localhost:2375` có thể thay đổi tùy thuộc vào cài đặt `Docker`. Chắc chắn rằng `Docker daemon` đang chạy và API của nó có thể được truy cập từ `Node.js`.
 
 Lưu ý: Việc truy cập `Docker daemon` qua HTTP API có thể có rủi ro bảo mật. Đảm bảo rằng bạn đã cấu hình `Docker daemon` của mình một cách an toàn và cân nhắc về bảo mật khi sử dụng API này.
 
